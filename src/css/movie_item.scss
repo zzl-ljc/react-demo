@@ -1,0 +1,22 @@
+.box {
+    border: 1px solid #ddd;
+    box-shadow: 0 0 6px #ddd;
+    width: 170px;
+    text-align: center;
+    margin: 5px;
+    padding: 4px;
+    cursor: pointer;
+    .img{
+        width: 100px;
+        height: 140px;
+    }
+    &:hover{
+        transform: rotate(1deg) scale(1.03);
+        opacity: 0.8;
+    }
+}
+.title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
